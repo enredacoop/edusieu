@@ -136,6 +136,10 @@ body{
 	margin-bottom:25px;
 }
 
+.left-heading img{
+	padding-bottom: 10px;
+}
+
 /*-----------------------------------------------------------------------------------
 
  Header (section)
@@ -2368,9 +2372,20 @@ BLOG CSS
 }
 
 
+.menu .app {
+	padding: 0px;
+}
 
+.menu .app a {
+	border: 1px solid #27ae5f;
+	padding: 6px;
+	font-size: 0.8em;
+}
 
-
+.menu .app a:hover {
+	background-color: #27ae5f;
+	color: #fff;
+}
 
 
 
@@ -2761,6 +2776,7 @@ Responsive CSS for all sections
 		width:100%;
 	}
 }
+
 
 
 
